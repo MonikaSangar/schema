@@ -1,0 +1,54 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style type="text/css">
+        body {
+            background-image: url("m.jpg");
+        }
+        p.ex1 {
+            margin-top: 100px;
+        }
+  </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="jumbotron">
+
+        <p><h1>Form</h1></p>
+    </div>
+    <form action ="/usersignup" method="post">
+        <div class="form-group">
+            <a href="#" class="text-warning">   <label for="id">Id:</label></a>
+            <input type="text" class="form-control"  placeholder="Enter id " id="id" name="id" >
+        </div>
+
+        <div class="form-group">
+            <a href="#" class="text-warning">    <label for="name">name:</label></a>
+        <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+        </div>
+
+        <div class="form-group">
+            <a href="#" class="text-warning">  <label for="email">email:</label></a>
+            <input type="text" class="form-control" id="email" placeholder="Enter Name" name="email">
+        </div>
+
+        <div class="form-group">
+            <a href="#" class="text-warning">   <label for="phone">Mobile.No:</label></a>
+            <input type="text" class="form-control" id="phone" placeholder="Enter Mobile.No." name="phone">
+        </div>
+        <div class="form-group form-check">
+
+
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
